@@ -19,7 +19,7 @@ app = Flask(__name__)
 # CORS — replace "*" with your actual portfolio domain before deploying
 # e.g. CORS(app, origins=["https://jorgecastano.com"])
 # ----------------------------------------------------------------------
-CORS(app, origins="*")
+CORS(app, origins="jorgecastano1.github.io")
 
 API_KEY = os.getenv("ETHERSCAN_APIKEY")
 BASE_URL = "https://api.etherscan.io/v2/api"
